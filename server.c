@@ -1,15 +1,4 @@
-/* server.c - go-back-n server implementation in C
- * by Elijah Jordan Montgomery <elijah.montgomery@uky.edu>
- * based on code by Kenneth Calvert
- *
- * This implements a go-back-n server that implements reliable data
- * transfer over UDP using the go-back-n ARQ with variable chunk size
- *
- * for debug purposes, a loss rate can also be specified
- * compile with "gcc -o server server.c"
- * tested on UKY CS Multilab
 
- */
 #include <stdio.h>		/* for printf() and fprintf() */
 #include <sys/socket.h>		/* for socket() and bind() */
 #include <arpa/inet.h>		/* for sockaddr_in and inet_ntoa() */

@@ -1,6 +1,4 @@
-/* gbnpacket.c - defines the go-back-n packet structure
- * by Elijah Jordan Montgomery <elijah.montgomery@uky.edu>
- */
+
 struct gbnpacket
 {
   int type;

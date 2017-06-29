@@ -1,17 +1,4 @@
-/* client.c - go-back-n client implementation in C
- * by Elijah Jordan Montgomery <elijah.montgomery@uky.edu>
- * based on code by Kenneth Calvert
- *
- * This implements a go-back-n client that implements reliable data
- * transfer over UDP using the go-back-n ARQ with variable chunk size
- *
- * for debug purposes, a loss rate can also be specified in the accompanying
- * server program
 
- 
- * compile with "gcc -o client client.c"
- * tested on UKY CS Multilab
- */
 
 #include <stdio.h>		/* for printf() and fprintf() */
 #include <sys/socket.h>		/* for socket(), connect(), sendto(), and recvfrom() */
