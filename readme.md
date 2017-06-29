@@ -1,1 +1,1 @@
-Client - Sever TCP connection impemented using go-back-n protocol
+Client - Sever UDP connection impemented using go-back-n protocol
